@@ -51,10 +51,10 @@ def cal():
     OctShow.config(text=o_res)
 
 
-# 建立單選按鈕 aBtn ==> addition, sBtn ==> subtraction, mBtn ==> multiplication, dBtn ==> division
+# 建立按鈕 pack()與grid()不能同時使用
 ConvBtn = Button(text="Convert", bg="skyblue", command=cal, font=10)
 ConvBtn.config(width=7, height=3)
-ConvBtn.grid(row=9, column=1)
+ConvBtn.place(anchor=CENTER, x=125, y=400)
 
 
 # 步驟四： 進入事件處理迴圈。
