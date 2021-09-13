@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1628932070 source:e:\c-projects\c&c++\c++_side_pj\bookshop_cversion\bookshop_cversion\main.c
+	<stdio.h>
+	<stdlib.h>
+
